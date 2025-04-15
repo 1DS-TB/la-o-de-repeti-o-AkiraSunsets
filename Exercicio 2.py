@@ -1,5 +1,4 @@
-print("Peça ao usuário um número inteiro positivo, e calcule a soma de todos os números de"
-      "1 até N, usando while\n")
+print("Peça ao usuário um número inteiro positivo, e calcule a soma de todos os números de 1 até N, usando while\n")
 
 N = int(input("Digite um número inteiro e positivo: \n"))
 soma = 0
