@@ -1,9 +1,8 @@
-num_first = int(input("Digite o primeiro número: \n"))
-num_second = int(input("Digite o segundo número: \n"))
+num = int(input("Digite o primeiro número: \n"))
 
-print(f"Números primos entre {num_first} e {num_second}:")
+print(f"Números primos entre {num}")
 
-for numero in range(num_first, num_second + 1):
+for numero in range(num + 1):
     if numero > 1:
         for i in range(2, numero):
             if numero % i == 0:
